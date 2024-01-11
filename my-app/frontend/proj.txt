@@ -1,0 +1,53 @@
+.form-wrapper {
+  display: flex;
+  justify-content: space-between; /* Align the form to the right side */
+  align-items: center; /* Vertically center the form */
+  min-height: 100vh;
+  margin-right: -900px;
+}
+
+
+
+   
+  //Rendering app component
+//   return (
+//     <div className="App">
+//       {currentForm === "login" || currentForm === "register" ? (
+//         <div className="form-wrapper">
+//           {currentForm === "login" ? (
+//             <Login onFormSwitch={toggleForm} />
+//           ) : (
+//             <Register onFormSwitch={toggleForm} />
+//           )}
+//         </div>
+//       ) : 
+//       (
+//         renderForm()
+//       )}
+//     </div>
+//   );
+  
+// }
+
+// return (
+//   <div className="App">
+//     <header>
+//       {/* Add the image component or element here */}
+//       <img src={logoImage} alt="Website Logo" />
+//     </header>
+//     <main>
+//       {currentForm === "login" || currentForm === "register" ? (
+//         <div className="form-wrapper">
+//           {currentForm === "login" ? (
+//             <Login onFormSwitch={toggleForm} />
+//           ) : (
+//             <Register onFormSwitch={toggleForm} />
+//           )}
+//         </div>
+//       ) : (
+//         renderForm()
+//       )}
+//     </main>
+//   </div>
+// );
+// }
